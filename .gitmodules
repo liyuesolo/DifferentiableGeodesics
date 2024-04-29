@@ -1,0 +1,11 @@
+[submodule "Deps/geometry-central"]
+	path = Deps/geometry-central
+	url = https://github.com/nmwsharp/geometry-central.git
+
+[submodule "Deps/polyscope"]
+	path = Deps/polyscope
+	url = https://github.com/nmwsharp/polyscope.git
+
+[submodule "Deps/libigl"]
+	path = Deps/libigl
+	url = https://github.com/libigl/libigl.git

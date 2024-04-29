@@ -1,0 +1,25 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/cpp
+{
+	// If using the dockerhub repository (recommended)
+	"image": "wukongsim/differentiable_geodesics_environment:latest",
+	/// Instead, if building the docker image from scratch, uncomment the following two lines:
+	// "name": "DifferentiableGeodesicsEnvironment",
+	// "dockerFile": "Dockerfile",
+	"extensions": [
+		"ms-vscode.cpptools",
+		"twxs.cmake",
+		"ms-vscode.cmake-tools",
+		"ninja-build"
+	],
+	"containerEnv": {
+		"DISPLAY": "${localEnv:DISPLAY}"
+	},
+	"mounts": [
+		"source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind,consistency=cached"
+	],
+	"runArgs": [
+		"--gpus","all",
+        "--runtime", "nvidia"
+	]
+}

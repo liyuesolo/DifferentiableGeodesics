@@ -1,0 +1,7 @@
+.vscode/*
+build/*
+ext/cache/*
+CMakeLists.txt.user
+.gcode
+*.ini
+__*
