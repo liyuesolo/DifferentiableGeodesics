@@ -74,7 +74,7 @@ If this code contributes to your research, please consider citing our work:
   author={Li, Yue and Numerow, Logan and Thomaszewski, Bernhard and Coros, Stelian},
   journal={ACM Transactions on Graphics (TOG)},
   volume={43},
-  number={6},
+  number={4},
   pages={1--14},
   year={2024},
   publisher={ACM New York, NY, USA}
